@@ -1,0 +1,21 @@
+from turtle import *
+t= Turtle()
+wn = Screen()
+wn.title("My graphics") #to give the title for the turtle window
+wn.bgcolor("sky blue") #bg color of the whole window
+t.shape("turtle") #to change the shape of the icon
+t.color("black","pink") #change the color of the icon, black=outline,pink=fill
+t.speed(2) #can give speed from 1(slowest)-10(fastest)
+t.hideturtle() #to hide the icon
+
+t.begin_fill() #to fill the shape
+t.forward(100) #move for 100 distance forward
+t.left(90) #turn left (90 degree)
+t.forward(100) #move forward for 100 distance
+t.left(90) #turn left (90 degree)
+t.forward(100) #move forward for 100 distance
+t.left(90) #turn left (90 degree)
+t.forward(100) #move forward for 100 distance
+t.end_fill()
+
+done() #to hold the screen for longer time
